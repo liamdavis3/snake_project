@@ -29,6 +29,11 @@ Playing screen with development mode on (Hard mode w/ projecticles)
 <em>Splash Screens</em>: Generated using Google's Gemini (Nano/Banana model) and edited and refined in Adobe Photoshop for use in the game. \
 <em>Harry Potter sprite sheet</em> adapted from [Stooben Rooben](https://www.spriters-resource.com/game_boy_gbc/harrypotterthechamberofsecrets/asset/27356/), modified in LibreSprite \ 
 <em>Eat Sound</em> from [jaydenclifford0908](https://www.voicy.network/search/warzone-sound-effects) \
-<em>Music</em> from [James Berkley](https://soundcloud.com/jamesmberkeley)
+<em>Music</em> from [James Berkley](https://soundcloud.com/jamesmberkeley) \ \
+
+AI tools (ChatGPT) were used for the following small game logic pieces:
+- next_direction variable to prevent reverse movement on double inputs within a singular move cycle
+- Previous body state to remove glitching back and forth upon initial LERP logic
+
 
 
